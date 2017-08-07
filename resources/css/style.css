@@ -64,3 +64,30 @@ nav {
     margin: auto;
     flex-direction: column;
 }
+
+.second {
+  background-color: black;
+  width: 1200px;
+}
+
+.tea {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px
+}
+
+.teaphotos img {
+  display: inline-flex;
+  height: 200px;
+  flex-grow: 3;
+  flex-direction: row;
+  padding:0 10px;
+}
+
+.teaheader span {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+}
