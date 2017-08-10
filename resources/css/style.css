@@ -6,6 +6,8 @@ body {
   opacity: 0.9;
   margin: auto;
 }
+
+/* Logo and header section*/
 .logo {
   display: flex;
   width: 100%;
@@ -28,43 +30,41 @@ nav {
   flex-grow: 1;
   }
 
-  span {
-    padding: 20px 10px;
+span {
+  padding: 20px 10px;
   }
 
-  a {
-    color: seashell;
+a {
+  color: seashell;
   }
 
-  .main {
-    display: flex;
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-    width: 1200px;
-    height: 700px;
+/* Main container for Our Mission section*/
+.main {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
   }
 
-  .mission {
-    display: flex;
-    margin: auto;
-    width: 1200px;
-    height: 100px;
-    background-color: black;
+.mission {
+  display: block;
+  margin: auto;
+  width: 1200px;
+  height: 100px;
+  background-color: black;
   }
 
-  .mission h2 {
-    display: flex;
-    margin: auto;
-    text-align: center;
-    flex-direction: column;
+.mission h2 {
+  margin: auto;
+  text-align: center;
   }
 
-  .mission h4 {
-    display: flex;
-    text-align: center;
-    margin: auto;
-    flex-direction: column;
-}
+.mission h4 {
+  margin: auto;
+  text-align: center;
+  }
 
+/* Tea of the month - second container*/
 .second {
   width: 1000px;
   text-align: center;
@@ -91,7 +91,7 @@ nav {
   width: 300px;
 }
 
-
+/* Tea of the month - third container*/
 .third {
   width: 1000px;
   text-align: center;
@@ -120,6 +120,7 @@ nav {
   width: 300px;
 }
 
+/* Locations section */
 .locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
@@ -162,4 +163,18 @@ nav {
   opacity: 1;
   padding: 10px;
   flex-direction: column;
+}
+
+/* Contact section */
+.contact {
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer section */
+footer {
+  display: block;
+  text-align: left;
+  padding-left: 20px;
 }
