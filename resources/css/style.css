@@ -66,15 +66,14 @@ nav {
 }
 
 .second {
-  background-color: black;
-  width: 1200px;
+  width: 1000px;
+  text-align: center;
 }
 
 .tea {
   width: 1200px;
   height: 100px;
   margin: auto;
-  text-align: center;
   padding-bottom: 20px
 }
 
@@ -90,4 +89,77 @@ nav {
   display: inline-block;
   text-align: center;
   width: 300px;
+}
+
+
+.third {
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+}
+
+.tea2 {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.teaphotos2 img {
+  display: inline-flex;
+  height: 200px;
+  flex-grow: 3;
+  flex-direction: row;
+  padding: 0px 10px;
+}
+
+.teaheader2 span {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+}
+
+.locations h2 {
+  display: block;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.downtown {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  opacity: 1;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.east {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  opacity: 1;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.oakdale {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  opacity: 1;
+  padding: 10px;
+  flex-direction: column;
 }
